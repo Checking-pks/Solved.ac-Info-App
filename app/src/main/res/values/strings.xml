@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Solved.ac Info</string>
+    <string name="title_activity_main">userLobby</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="search_title">검색</string>
+    <string name="usericon">userIcon</string>
+    <string name="usertier">userTier</string>
+
+    <string name="maxStreak">최장 스트릭 : %d 일</string>
+
+    <!-- Tier Name -->
+    <string name="tier_0">Unrated</string>
+    <string name="tier_1">Bronze V</string>
+    <string name="tier_2">Bronze IV</string>
+    <string name="tier_3">Bronze III</string>
+    <string name="tier_4">Bronze II</string>
+    <string name="tier_5">Bronze I</string>
+    <string name="tier_6">Silver V</string>
+    <string name="tier_7">Silver IV</string>
+    <string name="tier_8">Silver III</string>
+    <string name="tier_9">Silver II</string>
+    <string name="tier_10">Silver I</string>
+    <string name="tier_11">Gold V</string>
+    <string name="tier_12">Gold IV</string>
+    <string name="tier_13">Gold III</string>
+    <string name="tier_14">Gold II</string>
+    <string name="tier_15">Gold I</string>
+    <string name="tier_16">Platinum V</string>
+    <string name="tier_17">Platinum IV</string>
+    <string name="tier_18">Platinum III</string>
+    <string name="tier_19">Platinum II</string>
+    <string name="tier_20">Platinum I</string>
+    <string name="tier_21">Diamond V</string>
+    <string name="tier_22">Diamond IV</string>
+    <string name="tier_23">Diamond III</string>
+    <string name="tier_24">Diamond II</string>
+    <string name="tier_25">Diamond I</string>
+    <string name="tier_26">Ruby V</string>
+    <string name="tier_27">Ruby IV</string>
+    <string name="tier_28">Ruby III</string>
+    <string name="tier_29">Ruby II</string>
+    <string name="tier_30">Ruby I</string>
+    <string name="tier_31">Master</string>
+    <string name="add_user_icon">add_user_icon</string>
+    <string name="user_information">User Infomation</string>
+    <string name="user_nicname">User Nicname</string>
+    <string name="user_bio">user_bio</string>
+</resources>

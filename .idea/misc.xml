@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable-tier/tier_0.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable-tier/tier_1.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable-v24/ac_rating.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ac_rating_icon.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/bottom_bar_background.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/card_background.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/default_profile.xml" value="0.193" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/difficulty_icon.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_3d_rotation_24.xml" value="0.266" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.15" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_account_circle_24_white.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_file_24.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.266" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.266" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.193" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1655" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/shadow.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/shadow_all.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/shadow_bottom.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/streak_icon.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/switch_account.xml" value="0.266" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/tier-0.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/tier-1.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/tier.xml" value="0.356" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/tier_0.xml" value="0.193" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/drawable/tier_1.xml" value="0.193" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/main.xml" value="0.2105978260869565" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/problem_search.xml" value="0.29713552800342025" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/userLobby.xml" value="0.17603850050658562" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/user_add.xml" value="0.33" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/user_card.xml" value="0.2481962481962482" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/user_info.xml" value="0.33" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/user_lobby.xml" value="0.33" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/layout/views.xml" value="0.3619791666666667" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/menu/bottom_menu.xml" value="0.33" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/menu/search_menu.xml" value="0.18489583333333334" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/menu/search_view.xml" value="0.18489583333333334" />
+        <entry key="..\:/Checking/7. Project/Solved.ac info/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.356" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

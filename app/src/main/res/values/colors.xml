@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    /* Bottom Menu Bar */
+    <color name="bottom_menu_icon">#ffffff</color>
+    <color name="bottom_menu_font">#f6d170</color>
+    <color name="bottom_menu_line">#ffffff</color>
+    <color name="bottom_menu_background">#2D69A1</color>
+
+    /* Tier Colors */
+    // Unrated
+    <color name="tier_0">#2d2d2d</color>
+    // Bronze
+    <color name="tier_1">#9d4900</color>
+    <color name="tier_2">#a54f00</color>
+    <color name="tier_3">#ad5600</color>
+    <color name="tier_4">#b55d0a</color>
+    <color name="tier_5">#c67739</color>
+    // Silver
+    <color name="tier_6">#38546e</color>
+    <color name="tier_7">#3d5a74</color>
+    <color name="tier_8">#435f7a</color>
+    <color name="tier_9">#496580</color>
+    <color name="tier_10">#4e6a86</color>
+    // Gold
+    <color name="tier_11">#d28500</color>
+    <color name="tier_12">#df8f00</color>
+    <color name="tier_13">#ec9a00</color>
+    <color name="tier_14">#f9a518</color>
+    <color name="tier_15">#ffb028</color>
+    // Platinum
+    <color name="tier_16">#00c78b</color>
+    <color name="tier_17">#00d497</color>
+    <color name="tier_18">#27e2a4</color>
+    <color name="tier_19">#3ef0b1</color>
+    <color name="tier_20">#51fdbd</color>
+    // Diamond
+    <color name="tier_21">#009ee5</color>
+    <color name="tier_22">#00a9f0</color>
+    <color name="tier_23">#00b4fc</color>
+    <color name="tier_24">#2bbfff</color>
+    <color name="tier_25">#41caff</color>
+    // Ruby
+    <color name="tier_26">#e0004c</color>
+    <color name="tier_27">#ea0053</color>
+    <color name="tier_28">#f5005a</color>
+    <color name="tier_29">#ff0062</color>
+    <color name="tier_30">#ff3071</color>
+    // Master
+    <color name="tier_31_start">#7cf9ff</color>
+    <color name="tier_31_center">#b491ff</color>
+    <color name="tier_31_end">#ff7ca8</color>
+</resources>

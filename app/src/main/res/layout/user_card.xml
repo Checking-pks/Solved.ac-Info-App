@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardImageLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.8"
+        tools:layout_constraintHeight_default="percent">
+
+        <ImageView
+            android:id="@+id/userIcon"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:contentDescription="@string/usericon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/default_profile" />
+
+        <ImageView
+            android:id="@+id/userTier"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/usertier"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.3"
+            app:srcCompat="@drawable/tier_0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardImageLayout">
+
+        <TextView
+            android:id="@+id/userNickname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:gravity="center"
+            android:text="User Not found"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintHeight_default="percent" />
+
+        <TextView
+            android:id="@+id/userRating"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:text="Unranked 0"
+            android:textAlignment="center"
+
+            android:textColor="@color/tier_5"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userNickname"
+            tools:layout_constraintHeight_percent="0.25" />
+
+        <TextView
+            android:id="@+id/userStreak"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:gravity="center"
+            android:text="최장 스트릭 | 999 일"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userRating" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
