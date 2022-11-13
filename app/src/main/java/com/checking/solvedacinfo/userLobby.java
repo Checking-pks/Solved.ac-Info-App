@@ -82,6 +82,7 @@ public class userLobby extends AppCompatActivity {
         userCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (finalNickname == null) return;
                 Intent intent = new Intent(userLobby.this, userInfo.class);
                 intent.putExtra("nickname", finalNickname);
                 startActivity(intent);
