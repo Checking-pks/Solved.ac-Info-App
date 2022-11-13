@@ -1,6 +1,7 @@
 package com.checking.solvedacinfo;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -72,27 +73,7 @@ public class problemSearch extends AppCompatActivity {
                         }
 
                         try {
-                            runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    tableLayout.removeAllViews();
-
-                                    TableRow tableRow = new TableRow(problemSearch.this);
-                                    tableRow.setLayoutParams(new TableRow.LayoutParams(
-                                            ViewGroup.LayoutParams.MATCH_PARENT,
-                                            ViewGroup.LayoutParams.WRAP_CONTENT
-                                    ));
-
-                                    for (int j=0; j<problemCategory.length; j++) {
-                                        TextView textView = new TextView(problemSearch.this);
-                                        textView.setText(problemCategory[j]);
-                                        textView.setGravity(Gravity.CENTER);
-                                        tableRow.addView(textView);
-                                    }
-
-                                    tableLayout.addView(tableRow);
-                                }
-                            });
+                            tableLayout.removeViewsInLayout(2,tableLayout.getChildCount() - 2);
 
                             JSONObject json = new JSONObject(response.body().string());
                             JSONArray problemList = json.getJSONArray("items");
@@ -109,8 +90,25 @@ public class problemSearch extends AppCompatActivity {
 
                                 for (int j=0; j<problemOrder.length; j++) {
                                     TextView textView = new TextView(problemSearch.this);
-                                    textView.setText(nowProblem.getString(problemOrder[j]));
+                                    String str = nowProblem.getString(problemOrder[j]);
+                                    if (str.length() > 10) str = str.substring(0, 10) + "...";
+                                    textView.setText(str);
                                     textView.setGravity(Gravity.CENTER);
+
+
+                                    textView.setClickable(true);
+                                    textView.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View v) {
+                                            try {
+                                                Intent intent = new Intent(Intent.ACTION_VIEW,
+                                                        Uri.parse("https://www.acmicpc.net/problem/" + nowProblem.getString("problemId")));
+                                                startActivity(intent);
+                                            } catch (JSONException e) {
+                                                e.printStackTrace();
+                                            }
+                                        }
+                                    });
                                     tableRow.addView(textView);
                                 }
 
