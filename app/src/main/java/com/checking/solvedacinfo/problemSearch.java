@@ -91,10 +91,8 @@ public class problemSearch extends AppCompatActivity {
                                 for (int j=0; j<problemOrder.length; j++) {
                                     TextView textView = new TextView(problemSearch.this);
                                     String str = nowProblem.getString(problemOrder[j]);
-                                    if (str.length() > 10) str = str.substring(0, 10) + "...";
-                                    textView.setText(str);
+                                    textView.setText((str.length() > 10 ? str.substring(0, 10) + "..." : str));
                                     textView.setGravity(Gravity.CENTER);
-
 
                                     textView.setClickable(true);
                                     textView.setOnClickListener(new View.OnClickListener() {
