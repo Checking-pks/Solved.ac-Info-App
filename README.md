@@ -9,7 +9,8 @@ Solved.ac 유저 및 문제 정보 검색 어플리케이션
 ---
 
 ## Download
-[Google Play](https://play.google.com/store/apps/details?id=com.checking.solvedacinfo)
+
+### [Google Play](https://play.google.com/store/apps/details?id=com.checking.solvedacinfo)
 
 ---
 
