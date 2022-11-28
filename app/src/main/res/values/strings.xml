@@ -44,7 +44,7 @@
     <string name="tier_30">Ruby I</string>
     <string name="tier_31">Master</string>
     <string name="add_user_icon">add_user_icon</string>
-    <string name="user_information">User Infomation</string>
-    <string name="user_nicname">User Nicname</string>
+    <string name="user_information">User Information</string>
+    <string name="user_nickname">User Nickname</string>
     <string name="user_bio">user_bio</string>
 </resources>
